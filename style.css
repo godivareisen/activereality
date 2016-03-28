@@ -317,7 +317,7 @@ body {
 		width: 100%;
 	}
 	
-	#wrapper div:nth-child(10) {
-		height: 525px;
+	.box p {
+		overflow: scroll;
 	}
 }
