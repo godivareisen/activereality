@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#titles {
+	width: 32%;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	top: 20;
+	left: 30;
+	cursor: pointer;
+}
+
+#titles mark:nth-child(1) {
+	font-style: italic;
+	color: #000;
+	background: none;
+}
+
+#emphasis {
+	font-style: italic;
+	color: #000;
+	background: none;
+}
+
+#crossover {
+	font-family: 'Roboto Slab', serif;
+	background: none;
+}
+
+#crossbold {
+	font-weight: 400;
+	color: #0000ff;
+	background: none;
+	position: absolute;
+	left: -0.10em;
+}
+
+#titles p:nth-child(1) {
+	font-family: 'Noto Serif', serif;
+	font-size: 3.5em;
+	line-height: 1.25em;
+	color: #000;
+	float: left;
+}
+
+#titles p:nth-child(2) {
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.5em;
+	font-weight: 300;
+	color: #0000ff;
+	text-align: left;
+	line-height: 1.25em;
+	position: absolute;
+	top: 2.5em;
+	left: 2.75em;
+}
+
+#titles p:nth-child(3) {
+	display: none;
+}
+
+#wrapper {
+	width: 100%;
+	height: 90%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.box {
+	width: 27.5%;
+	font-family: 'Noto Serif', serif;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	border: 0.5px solid #000;
+	background-color: #fff
+}
+
+.box:hover {
+	border: 1px solid #0000ff;
+}
+
+.box p {
+	padding: 0.75em;
+}
+
+.box span {
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.5em;
+	position: absolute;
+	bottom: 0;
+	padding-left: 0.75em;
+}
+
+.box mark {
+	color: #0000ff;
+	background: none;
+}
+
+.box p:nth-child(1) {
+	font-style: italic;
+}
+
+.box p:nth-child(2) {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+
+.box p:nth-child(3):hover {
+	color: #0000ff;
+}
+
+#wrapper div {
+	cursor: crosshair;
+}
+
+#wrapper div:nth-child(1) {
+	position: absolute;
+	margin: 0 auto;
+	top: 20;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 100;
+}
+
+#wrapper div:nth-child(2) {
+	position: absolute;
+	margin: 0 auto;
+	top: 40;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 99;
+}
+
+#wrapper div:nth-child(3) {
+	position: absolute;
+	margin: 0 auto;
+	top: 60;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 98;
+}
+
+#wrapper div:nth-child(4) {
+	position: absolute;
+	margin: 0 auto;
+	top: 80;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 97;
+}
+
+#wrapper div:nth-child(5) {
+	position: absolute;
+	margin: 0 auto;
+	top: 100;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 96;
+}
+
+
+#wrapper div:nth-child(6) {
+	position: absolute;
+	margin: 0 auto;
+	top: 120;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 95;
+}
+
+#wrapper div:nth-child(7) {
+	position: absolute;
+	margin: 0 auto;
+	top: 140;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 94;
+}
+
+#wrapper div:nth-child(8) {
+	position: absolute;
+	margin: 0 auto;
+	top: 160;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 93;
+}
+
+#wrapper div:nth-child(9) {
+	position: absolute;
+	margin: 0 auto;
+	top: 180;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 92;
+}
+
+#wrapper div:nth-child(10) {
+	position: absolute;
+	margin: 0 auto;
+	top: 200;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 91;
+}
+
+#wrapper div:nth-child(11) {
+	position: absolute;
+	margin: 0 auto;
+	top: 220;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 90;
+}
+
+#wrapper div:nth-child(12) {
+	position: absolute;
+	margin: 0 auto;
+	top: 240;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 89;
+}
+
+#wrapper div:nth-child(13) {
+	position: absolute;
+	margin: 0 auto;
+	top: 260;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 88;
+}
+
+#wrapper div:nth-child(14) {
+	position: absolute;
+	margin: 0 auto;
+	top: 280;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 87;
+}
+
+#wrapper div:nth-child(15) {
+	position: absolute;
+	margin: 0 auto;
+	top: 300;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 500px;
+	z-index: 86;
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+	#titles {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#titles p:nth-child(1) {
+		display: none;
+	}
+
+	#titles p:nth-child(2) {
+		display: none;
+	}
+
+	#titles p:nth-child(3) {
+		font-family: 'Noto Serif', serif;
+		font-size: 0.75em;
+		font-weight: 700;
+		line-height: 1.75em;
+		color: #0000ff;
+		text-align: center;
+		display: block;
+	}
+
+	.box {
+		width: 100%;
+	}
+}
